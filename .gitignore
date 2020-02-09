@@ -1,3 +1,8 @@
 
-**/settings/dev.py
+dev.py
 virtenv/
+*.log
+*.pot
+*pyc
+__pycache__
+media/

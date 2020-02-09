@@ -35,3 +35,10 @@ if settings.DEBUG:
     # Serve static and media files from development server
     urlpatterns += staticfiles_urlpatterns()
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+#for 404 error page
+handler404 = 'blog.views.handler404'
+
+#for 500 error page
+handler500 = 'blog.views.handler500'
